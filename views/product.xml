@@ -8,9 +8,9 @@
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='detailed_type']" position="after">
                     <field name="grade"/>
+                    <field name="rating" widget='priority'/>
                 </xpath>
             </field>
         </record>
-
     </data>
 </odoo>
