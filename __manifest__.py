@@ -1,5 +1,5 @@
 {
-    'name': "Pos Product Grade",
+    'name': "Pos Product",
 
     'application': "True",
 
@@ -13,7 +13,7 @@
 
     'licence': "LGPL-3",
 
-    'depends': ['base', 'sale', 'point_of_sale'],
+    'depends': ['base', 'sale', 'point_of_sale','stock'],
     'assets': {
         'web.assets_qweb': [
             "pos_product/static/src/xml/pos_product_grade.xml"],
@@ -23,5 +23,6 @@
 
     'data': [
         'views/product.xml',
+        'views/pos_config.xml',
     ],
 }

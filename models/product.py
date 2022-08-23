@@ -18,8 +18,4 @@ class Product(models.Model):
     @api.onchange('rating')
     def change(self):
         print(self.rating)
-    # ('1', '1'),
-    # ('2', '2'),
-    # ('3', '3'),
-    # ('4', '4'),
-    # ('5', '⭐⭐⭐⭐')],index=True)
+
